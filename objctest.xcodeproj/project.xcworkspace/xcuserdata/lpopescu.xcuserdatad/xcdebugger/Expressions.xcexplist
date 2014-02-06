@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[M4IvarWrapperArray stringValueWithPointer:]:M4IvarWrapperArray.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int *(*)[4])pointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperPointer setupWithEcoding:]:M4IvarWrapperPointer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperPointer stringValueWithPointer:]:M4IvarWrapperPointer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int*)pointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperPointer stringValueWithObject:]:M4IvarWrapperPointer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (*)[4])pointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperArray stringValueWithObject:]:M4IvarWrapperArray.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int *(*)[4])p">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperInt stringValueWithPointer:]:M4IvarWrapperInt.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int*)pointer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
