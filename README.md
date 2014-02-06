@@ -4,6 +4,13 @@ NSObject_Ivar
 A category for NSObject that extracts all instance variables info and value
 
 
+How to install
+============
+
+Add the *NSObject+Ivar* folder to your project
+
+
+
 How to use
 ==========
 
@@ -116,20 +123,9 @@ ObjectWithPrimitiveValues {
 
 ```
 
+Disclaimer
+==========
 
-
-
-
-Installation
-============
-
-Add the *NSObject+Ivar* folder to your project
-Add the header to your files
-
-```
-#import "NSObject+Ivar.h"
-```
-
-Use it!
+This is work in progress.
 
 
