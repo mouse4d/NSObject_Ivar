@@ -84,7 +84,13 @@ For example, this class
 @end
 ```
 
-if sent the *ivarDescriptions* selector will return
+if sent the *ivarDescriptions* selector
+
+```
+NSLog(@"%@", [[ObjectWithPrimitiveValues obj] ivarDescriptions])
+```
+
+ will return
 
 
 ```Objective-C
