@@ -9,15 +9,15 @@ How to use
 
 Add the header to your files
 
-'''objc
+```Objective-C
 #import "NSObject+Ivar.h"
-'''
+```
 
 
 Call the method that suits you most from any subclass of the NSObject.
 For example, this class
 
-'''objc
+```Objective-C
 @interface ObjectWithPrimitiveValues : NSObject
 + (instancetype)obj;
 @end
@@ -82,13 +82,12 @@ For example, this class
 }
 
 @end
-
-'''
+```
 
 if sent the *ivarDescriptions* selector will return
 
 
-'''
+```Objective-C
 ObjectWithPrimitiveValues {
     char _aChar = 97
     char _aBool = 1
@@ -109,7 +108,7 @@ ObjectWithPrimitiveValues {
     id _anObject = <ObjectWithPrimitiveValues: 0x8a65f80>
     SEL _aSelector = initByResolvingBookmarkData:options:relativeToURL:bookmarkDataIsStale:error:
 
-'''
+```
 
 
 
@@ -121,9 +120,9 @@ Installation
 Add the *NSObject+Ivar* folder to your project
 Add the header to your files
 
-'''
+```
 #import "NSObject+Ivar.h"
-'''
+```
 
 Use it!
 
