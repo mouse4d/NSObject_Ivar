@@ -154,16 +154,16 @@
 
     NSMutableString *prettyString = [[NSMutableString alloc] init];
 
-    NSUInteger charChount = description.length;
     const char *originalString = [description UTF8String];
 
     NSMutableString *spaceString = [[NSMutableString alloc] init];
     NSString *spaceStep = @"    ";
 
+    char ch = originalString[0];
 
-    for (int i = 0; i < charChount; i++) {
+    for (int i = 0; ch != '\0'; i++) {
 
-        char ch = originalString[i];
+        ch = originalString[i];
 
         [prettyString appendFormat:@"%c", ch];
 

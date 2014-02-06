@@ -3,15 +3,26 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[M4IvarWrapperPointer setupWithEcoding:]:M4IvarWrapperPointer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSObject(IvarPrint) prettyStringFromDescription:]:NSObject+IvarPrint.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "originalString[i+1]">
+            </PersistentString>
+            <PersistentString
+               value = "originalString[i+2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[M4IvarWrapperArray stringValueWithPointer:]:M4IvarWrapperArray.m">
          <PersistentStrings>
             <PersistentString
                value = "(int *(*)[4])pointer">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[M4IvarWrapperPointer setupWithEcoding:]:M4IvarWrapperPointer.m">
       </ContextState>
       <ContextState
          contextName = "-[M4IvarWrapperPointer stringValueWithPointer:]:M4IvarWrapperPointer.m">
@@ -22,18 +33,21 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[M4IvarWrapperPointer stringValueWithObject:]:M4IvarWrapperPointer.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "(int (*)[4])pointer">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "-[M4IvarWrapperArray stringValueWithObject:]:M4IvarWrapperArray.m">
          <PersistentStrings>
             <PersistentString
                value = "(int *(*)[4])p">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSObject(IvarPrint) ivarDescriptions]:NSObject+IvarPrint.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[M4IvarWrapperPointer stringValueWithObject:]:M4IvarWrapperPointer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (*)[4])pointer">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

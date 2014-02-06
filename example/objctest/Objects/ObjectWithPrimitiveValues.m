@@ -25,7 +25,7 @@
 @implementation ObjectWithPrimitiveValues {
 
     char                _aChar;
-    BOOL                _aBool;
+    bool                _aBool;
     short               _aShort;
     int                 _anInt;
     long                _aLong;

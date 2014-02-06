@@ -27,19 +27,19 @@
 
 - (size_t)size {
 
-    return sizeof(BOOL);
+    return sizeof(bool);
 }
 
 
 - (NSString*)stringType {
 
-    return @"BOOL";
+    return @"bool";
 }
 
 
 - (NSString*)stringValueWithObject:(id)object {
 
-    BOOL var = ((BOOL (*)(id, Ivar))object_getIvar)(object, self.ivar);
+    BOOL var = ((bool (*)(id, Ivar))object_getIvar)(object, self.ivar);
 
     if (var) {
         return @"YES";
@@ -55,7 +55,7 @@
         return @"NULL";
     }
 
-    BOOL var = *(BOOL*)pointer;
+    BOOL var = *(bool*)pointer;
 
     if (var) {
         return @"YES";

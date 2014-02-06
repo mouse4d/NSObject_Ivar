@@ -174,10 +174,10 @@
 		11325B9B18A3684B00187F04 /* NSObject+Ivar */ = {
 			isa = PBXGroup;
 			children = (
-				11325B9C18A3684B00187F04 /* IvarWrapper */,
-				11325BCB18A3684B00187F04 /* IvarWrapperFactory */,
 				11325BCE18A3684B00187F04 /* NSObject+IvarPrint.h */,
 				11325BCF18A3684B00187F04 /* NSObject+IvarPrint.m */,
+				11325B9C18A3684B00187F04 /* IvarWrapper */,
+				11325BCB18A3684B00187F04 /* IvarWrapperFactory */,
 			);
 			path = "NSObject+Ivar";
 			sourceTree = "<group>";
