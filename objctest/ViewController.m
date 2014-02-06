@@ -74,9 +74,9 @@
 
     _objectsDataSource = [[RudimentaryDataSource alloc] init];
     _objectsDataSource.titles = @[[ObjectWithTitle t:@"object with structs"  o:[ObjectWithStructs obj]],
-                                 [ObjectWithTitle t:@"object with pointers" o:[ObjectWithPointers obj]],
-                                 [ObjectWithTitle t:@"object with arrays"   o:[ObjectWithArrays obj]],
-                                  [ObjectWithTitle t:@"object with arrays"   o:[ObjectWithPrimitiveValues obj]]];
+                                  [ObjectWithTitle t:@"object with pointers" o:[ObjectWithPointers obj]],
+                                  [ObjectWithTitle t:@"object with arrays"   o:[ObjectWithArrays obj]],
+                                  [ObjectWithTitle t:@"object with primitve values"   o:[ObjectWithPrimitiveValues obj]]];
 
     _objectsTableView.dataSource = _objectsDataSource;
 
